@@ -10,18 +10,27 @@ const codes = [
   "b",
   "a"
 ];
+let index = 0
 
 function init()
 {
   // your code here
   document.body.addEventListener("keydown", (event) => {
-    for(let i = 0; i < codes.length; i += 1)
-    {
-      if(event.key != codes[i])
+
+    // This is the function that would be invoked by the event listener.
+
+      const key = e.key;
+
+      if (key == codes[index]) {
+        index++;
+
+      if (index == codes.length) 
       {
-        console.log(`Nope!`)
-        return `Nope!`
+        alert(`W0W!!! U R L33T H4K3R!!! 1MPR3551V3!!!`)
+        index = 0;
       }
+    } else {
+      index = 0;
     }
-    alert(`W0W!!! U R L33T H4K3R!!! 1MPR3551V3!!!`)
+
 }

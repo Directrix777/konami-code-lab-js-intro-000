@@ -23,7 +23,7 @@ function init()
       index++;
       if (index == codes.length)
       {
-        alert(`W0W!!! U R L33T H4K3R!!! 1MPR3551V3!!!`)
+        alert(`W0W!!! U R L33T H4K3R!!! 1MPR3551V3!!!(Hurray)`)
         index = 0;
       }
     }

@@ -18,16 +18,16 @@ function init()
   document.body.addEventListener("keydown", (event) => {
 
     const key = e.key;
-    if (key == codes[index]) 
+    if (key == codes[index])
     {
       index++;
-      if (index == codes.length) 
+      if (index == codes.length)
       {
         alert(`W0W!!! U R L33T H4K3R!!! 1MPR3551V3!!!`)
         index = 0;
       }
     }
-    else 
+    else
     {
       console.log(`nope`)
       index = 0;

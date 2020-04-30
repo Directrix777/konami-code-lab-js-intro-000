@@ -32,5 +32,5 @@ function init()
       console.log(`nope`)
       index = 0;
     }
-  }
+  })
 }
